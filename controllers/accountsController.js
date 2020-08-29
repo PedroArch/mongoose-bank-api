@@ -95,7 +95,6 @@ const transfer = async (req, res) => {
 };
 
 const deposito = async (req, res) => {
-  console.log("AQUI");
   const agencia = req.body.agencia;
   const conta = req.body.conta;
   const valor = req.body.valor;
